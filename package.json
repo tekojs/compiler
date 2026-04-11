@@ -8,7 +8,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/src/index.js"
+      "import": "./dist/index.js"
     }
   },
   "engines": {
@@ -73,7 +73,7 @@
   },
   "keywords": [
     "teko",
-    "ssr",
+    "compiler",
     "templates",
     "frontend"
   ],
@@ -96,7 +96,7 @@
     "target": "esnext"
   },
   "dependencies": {
-    "@tekojs/runtime": "^1.0.0",
+    "@tekojs/runtime": "^1.0.1",
     "@tekojs/types": "^1.2.0"
   }
 }
