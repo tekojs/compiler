@@ -67,7 +67,8 @@
     "ts-node-maintained": "^10.9.6",
     "tsdown": "^0.21.7",
     "tsup": "^8.5.1",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "@swc/core": "^1.15.24"
   },
   "config": {
     "commitizen": {
@@ -99,10 +100,7 @@
     "target": "esnext"
   },
   "dependencies": {
-    "-": "^0.0.1",
-    "@swc/core": "^1.15.24",
     "@tekojs/runtime": "^1.0.1",
-    "@tekojs/types": "^1.2.0",
-    "D": "^1.0.0"
+    "@tekojs/types": "^1.2.0"
   }
 }
