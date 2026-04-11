@@ -54,6 +54,8 @@
     "@typescript-eslint/eslint-plugin": "^8.29.0",
     "@typescript-eslint/parser": "^8.29.0",
     "c8": "^11.0.0",
+    "@t8ngs/assert": "^1.0.0",
+    "@t8ngs/runner": "^1.0.1",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
     "del-cli": "^7.0.0",
@@ -62,6 +64,7 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.2",
     "qs": "^6.15.0",
+    "ts-node-maintained": "^10.9.6",
     "tsdown": "^0.21.7",
     "tsup": "^8.5.1",
     "typescript": "^6.0.2"
@@ -96,7 +99,10 @@
     "target": "esnext"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@swc/core": "^1.15.24",
     "@tekojs/runtime": "^1.0.1",
-    "@tekojs/types": "^1.2.0"
+    "@tekojs/types": "^1.2.0",
+    "D": "^1.0.0"
   }
 }
